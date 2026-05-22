@@ -40,8 +40,8 @@ def main(page: ft.Page):
             ]
          )
 
-    button_calcular = ft.ElevatedButton("Calcular", on_click=calcular)
+    botao = ft.ElevatedButton("Calcular", on_click=calcular)
     page.update()
-    page.add(numero1, numero2,operacoes, button_calcular,resultado )
+    page.add(numero1, numero2,operacoes, botao,resultado )
 
 ft.app(target=main)
